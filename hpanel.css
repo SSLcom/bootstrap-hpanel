@@ -60,6 +60,10 @@
     border-bottom: none;
 }
 
+.hpanel > .row > div:nth-child(2) > .hpanel {
+    margin: 15px 15px 15px 0px;
+}
+
 @media only screen and (min-width: 768px) {
     .hpanel li:first-child {
         border-top: none;
