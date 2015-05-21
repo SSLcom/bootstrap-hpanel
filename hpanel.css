@@ -60,7 +60,7 @@
     border-bottom: none;
 }
 
-.hpanel > .row > div:nth-child(2) > .hpanel {
+.hpanel .hpanel {
     margin: 15px 15px 15px 0px;
 }
 
