@@ -52,8 +52,8 @@
     border-left: none;
 }
 
-.hpanel li:first-child {
-    border-top: none;
+.hpanel-content {
+    padding: 20px;
 }
 
 .hpanel li:last-child {
@@ -61,7 +61,10 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .hpanel > .row > div:nth-child(2) {
+    .hpanel li:first-child {
+        border-top: none;
+    }
+    .hpanel > .row > .list {
         padding-left: 0;
     }
     .hpanel > .row > div:first-child {
