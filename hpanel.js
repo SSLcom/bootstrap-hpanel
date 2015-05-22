@@ -1,12 +1,12 @@
 $(window).resize(function() {
-    sameAsParent();
+    hpanelHelper()
 });
 
 $(window).load(function(){
-    sameAsParent();
+    hpanelHelper()
 });
 
-function sameAsParent(){
+function hpanelHelper(){
     $(".hpanel").each(function(){
         $(this).find('[class*="col-"]').css("min-height", '');
     });
