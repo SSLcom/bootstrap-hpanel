@@ -11,7 +11,7 @@ function hpanelHelper(){
         $(this).find('[class*="col-"]').css("min-height", '');
     });
     if ($(window).width() > 752) {
-        $(".hpanel").each(function(parent){
+        $(".hpanel").each(function(){
             $(this).find('[class*="col-"]').each(function() {
                 $(this).css("min-height", $(this).parent().height());
             });
