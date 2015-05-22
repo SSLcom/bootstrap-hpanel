@@ -90,3 +90,9 @@
         border-right: 1px #d6e9c6 solid !important;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .hpanel .hpanel {
+        margin: 15px 0 0 0;
+    }
+}
