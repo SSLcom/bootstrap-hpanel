@@ -9,6 +9,7 @@ $(window).load(function(){
 function hpanelHelper(){
     $(".hpanel").each(function(){
         $(this).find('[class*="col-"]').css("min-height", '');
+        $(this).find('.panel-heading').css("min-height", '');
     });
     if ($(window).width() > 752) {
         $(".hpanel").each(function(){
